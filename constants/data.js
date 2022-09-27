@@ -21,6 +21,21 @@ const userData = {
       title: "Music App",
       link: "https://floferno.github.io",
       imgUrl: "/music-app.png",
+    },
+    {
+      title: "Tenzies",
+      link: "https://tenzies-floferno.vercel.app/",
+      imgUrl: "/tenzies.gif",
+    },
+    {
+      title: "Travel Journal",
+      link: "https://travel-journal-floferno.vercel.app",
+      imgUrl: "/travel-journal.png",
+    },
+    {
+      title: "Meme Generator",
+      link: "https://meme-generator-floferno.vercel.app",
+      imgUrl: "/meme-generator.png",
     }
 
   ],

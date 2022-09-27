@@ -55,7 +55,7 @@ export default function FavouriteProjects() {
           {/* Single card */}
           <a
             href="https://fancy-todo.vercel.app"
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
@@ -74,10 +74,29 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://floferno.github.io"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
+            href="https://tenzies-floferno.vercel.app/"
+            className="w-full block col-span-3 shadow-2xl"
           >
-            <div className="relative overflow-hidden shadow-2xl">
+            <div className="relative overflow-hidden">
+              <img
+                src="/tenzies.gif"
+                alt="Tenzies"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-400 rounded-md px-2">
+                Tenzies
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                03
+              </h1>
+            </div>
+          </a>
+          {/* Single card */}
+          <a
+            href="https://floferno.github.io"
+            className="w-full block col-span-3 shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/music-app.png"
@@ -88,10 +107,11 @@ export default function FavouriteProjects() {
                 Music Player
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
+                04
               </h1>
             </div>
           </a>
+          {/* Single card */}
         </div>
       </div>
     </div>
