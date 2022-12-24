@@ -52,6 +52,13 @@ const userData = {
   },
   experience: [
     {
+      title: "Full-time Front-end Developer",
+      company: "Venatronics LLc",
+      year: "2022 - present",
+      companyLink: "https://www.venatronics.com/",
+      desc: "- Building responsive company websites using React"
+    },
+    {
       title: "Part-Time Coding Teacher",
       company: "Kodland",
       year: "2022 - present",
